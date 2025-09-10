@@ -611,6 +611,11 @@ textarea {
     body{
         overflow-x: hidden;
     }
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
     .menu{
     display: block;
     color: #fff;
