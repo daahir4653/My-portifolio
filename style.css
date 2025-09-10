@@ -204,6 +204,10 @@ body{
     background-color: #34eb6b;
     border-radius: 20px;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 .profle img{
     border-radius: 50%;
     width: 120px;
@@ -316,8 +320,8 @@ body{
     align-items: center;
 }
 .container{
-    width: 900px;
-    border-radius: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 .row{
     width: 100%;
@@ -401,16 +405,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 1rem;
     border-radius: 20px;
-    margin-left: 45%;
     margin-top: 1rem;
 }
+
 .clearfix{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     gap: 20px;
     margin-left: 2rem;
 }
@@ -669,6 +670,23 @@ textarea {
     width: 350px;
     margin-left: 2rem;
 }
+.row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-title-1{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-image{
+    width: 100px;
+    height: 100px;
+}
 .row-2{
     display: grid;
     grid-template-columns: 1fr;
@@ -681,7 +699,6 @@ textarea {
 .clearfix{
     display: flex;
     flex-direction: column;
-    margin-right: 50%;
 }
 .col-4{
     width: 300px;
@@ -707,6 +724,9 @@ textarea {
   margin: 0 auto;
 }
 .copyright{
-    margin-right: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 }
