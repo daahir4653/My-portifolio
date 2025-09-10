@@ -608,6 +608,9 @@ textarea {
 
 /* mobile responsive */
 @media (max-width:478px){
+    body{
+        overflow-x: hidden;
+    }
     .menu{
     display: block;
     color: #fff;
