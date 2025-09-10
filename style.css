@@ -397,16 +397,31 @@ body{
 .custom-btn:hover{
     background-color: #34eb6b;
 }
-.section-title-1{
+.project-titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 700px;
     height: 200px;
     background-color: #34eb6b;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 20px;
     margin-top: 1rem;
+}
+.section-title-1{
+    display: flex;
+}
+.section-title-1 .text-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 20px;
+}
+.section-title-1 .avatar-image{
+    width: 120px;
+    height: 120px;
+
 }
 
 .clearfix{
@@ -684,16 +699,16 @@ textarea {
     justify-content: center;
     align-items: center;
 }
-.section-title-1{
+.project-titel{
     width: 300px;
-    height: 100px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .avatar-image{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 .row-2{
     display: grid;
